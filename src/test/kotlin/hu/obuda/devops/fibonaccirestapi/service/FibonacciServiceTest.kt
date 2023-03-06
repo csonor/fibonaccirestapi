@@ -10,8 +10,6 @@ class FibonacciServiceTest {
     private val underTest = FibonacciService()
     @Test
     fun shouldReturn0WhenCall1() {
-        // given
-
         // when
         val result: Int = underTest.fibonacci(1)
         // then
